@@ -1,0 +1,2 @@
+-keepattributes SourceFile,LineNumberTable
+-keep class com.bagimliligim.app.data.local.SwipeDatabase_Impl { *; }

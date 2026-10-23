@@ -1,0 +1,104 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "c2d253d85d53278e917cf7fedc588594",
+    "entities": [
+      {
+        "tableName": "swipe_logs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `batchId` TEXT NOT NULL, `platform` TEXT NOT NULL, `swipeCount` INTEGER NOT NULL, `distanceMeters` REAL NOT NULL, `timestamp` INTEGER NOT NULL, `dateString` TEXT NOT NULL, `hourOfDay` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "batchId",
+            "columnName": "batchId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "platform",
+            "columnName": "platform",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "swipeCount",
+            "columnName": "swipeCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "distanceMeters",
+            "columnName": "distanceMeters",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dateString",
+            "columnName": "dateString",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hourOfDay",
+            "columnName": "hourOfDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_swipe_logs_dateString_hourOfDay",
+            "unique": false,
+            "columnNames": [
+              "dateString",
+              "hourOfDay"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_swipe_logs_dateString_hourOfDay` ON `${TABLE_NAME}` (`dateString`, `hourOfDay`)"
+          },
+          {
+            "name": "index_swipe_logs_platform_dateString",
+            "unique": false,
+            "columnNames": [
+              "platform",
+              "dateString"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_swipe_logs_platform_dateString` ON `${TABLE_NAME}` (`platform`, `dateString`)"
+          },
+          {
+            "name": "index_swipe_logs_batchId",
+            "unique": true,
+            "columnNames": [
+              "batchId"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_swipe_logs_batchId` ON `${TABLE_NAME}` (`batchId`)"
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c2d253d85d53278e917cf7fedc588594')"
+    ]
+  }
+}

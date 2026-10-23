@@ -1,0 +1,362 @@
+[
+  {
+    "id": "80278367",
+    "title": "IKEA 365+ kupa, beyaz",
+    "category": "Kahve molası",
+    "price_kurus": 16900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/ikea-365--beyaz-36-cl-kupa-80278367",
+    "checked_at": "2026-10-17T18:56:26.206Z",
+    "available": true
+  },
+  {
+    "id": "90279724",
+    "title": "IKEA 365+ kupa, cam",
+    "category": "Kahve molası",
+    "price_kurus": 14900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/ikea-365--cam-36-cl-kupa-90279724",
+    "checked_at": "2026-10-17T18:56:27.124Z",
+    "available": true
+  },
+  {
+    "id": "60277463",
+    "title": "VARDERA fincan, beyaz",
+    "category": "Kahve molası",
+    "price_kurus": 19900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/vardera-beyaz-20-cl-fincan-60277463",
+    "checked_at": "2026-10-17T18:56:27.638Z",
+    "available": true
+  },
+  {
+    "id": "10148464",
+    "title": "SOCKERART vazo/sürahi, beyaz",
+    "category": "Evine bir dokunuş",
+    "price_kurus": 79900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/sockerart-beyaz-16-cm-vazo-surahi-10148464",
+    "checked_at": "2026-10-17T18:56:31.134Z",
+    "available": true
+  },
+  {
+    "id": "30352915",
+    "title": "VAXBO kolaj çerçeve, siyah",
+    "category": "Evine bir dokunuş",
+    "price_kurus": 84900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/vaxbo-siyah-13x18-cm-kolaj-cerceve-30352915",
+    "checked_at": "2026-10-17T18:56:32.040Z",
+    "available": true
+  },
+  {
+    "id": "40256621",
+    "title": "VAXBO kolaj çerçeve, beyaz",
+    "category": "Evine bir dokunuş",
+    "price_kurus": 84900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/vaxbo-beyaz-13x18-cm-kolaj-cerceve-40256621",
+    "checked_at": "2026-10-17T18:56:32.491Z",
+    "available": true
+  },
+  {
+    "id": "50622068",
+    "title": "VAXBO kolaj çerçeve, yeşil",
+    "category": "Evine bir dokunuş",
+    "price_kurus": 84900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/vaxbo-yesil-13x18-cm-kolaj-cerceve-50622068",
+    "checked_at": "2026-10-17T18:56:32.705Z",
+    "available": true
+  },
+  {
+    "id": "00241815",
+    "title": "DRUVFLADER asma saksı, su sümbülü",
+    "category": "Evine bir dokunuş",
+    "price_kurus": 49900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/druvflader-su-sumbulu-14-cm-asma-saksi-00241815",
+    "checked_at": "2026-10-17T18:56:34.088Z",
+    "available": true
+  },
+  {
+    "id": "10423594",
+    "title": "DUKTIG yumuşak oyuncak, çok renkli",
+    "category": "Küçük mutluluklar",
+    "price_kurus": 54900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/duktig-cok-renkli-yumusak-oyuncak-10423594",
+    "checked_at": "2026-10-17T18:56:34.803Z",
+    "available": true
+  },
+  {
+    "id": "80423595",
+    "title": "DUKTIG yumuşak oyuncak, çok renkli",
+    "category": "Küçük mutluluklar",
+    "price_kurus": 69900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/duktig-cok-renkli-yumusak-oyuncak-80423595",
+    "checked_at": "2026-10-17T18:56:35.345Z",
+    "available": true
+  },
+  {
+    "id": "20278351",
+    "title": "IKEA 365+ porselen kase, beyaz",
+    "category": "Birlikte sofrada",
+    "price_kurus": 14900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/ikea-365--beyaz-16-cm-porselen-kase-20278351",
+    "checked_at": "2026-10-17T18:56:37.681Z",
+    "available": true
+  },
+  {
+    "id": "70620092",
+    "title": "KALAS çocuk kase seti, çok renkli",
+    "category": "Birlikte sofrada",
+    "price_kurus": 14900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/kalas-cok-renkli-cocuk-kase-seti-70620092",
+    "checked_at": "2026-10-17T18:56:38.319Z",
+    "available": true
+  },
+  {
+    "id": "50278359",
+    "title": "IKEA 365+ bardak seti, cam",
+    "category": "Birlikte sofrada",
+    "price_kurus": 34900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/ikea-365--cam-20-cl-bardak-seti-50278359",
+    "checked_at": "2026-10-17T18:56:39.004Z",
+    "available": true
+  },
+  {
+    "id": "30282946",
+    "title": "IKEA 365+ bardak altlığı, mantar",
+    "category": "Birlikte sofrada",
+    "price_kurus": 10900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/ikea-365--mantar-10-cm-bardak-altligi-30282946",
+    "checked_at": "2026-10-17T18:56:39.624Z",
+    "available": true
+  },
+  {
+    "id": "10627954",
+    "title": "DVALA yastık kılıfı, açık mavi",
+    "category": "Rahat bir akşam",
+    "price_kurus": 22900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/dvala-acik-mavi-50x60-cm-yastik-kilifi-10627954",
+    "checked_at": "2026-10-17T18:56:40.334Z",
+    "available": true
+  },
+  {
+    "id": "40627877",
+    "title": "DVALA 2'li yastık kılıfı, pembe",
+    "category": "Rahat bir akşam",
+    "price_kurus": 22900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/dvala-pembe-50x60-cm-2-li-yastik-kilifi-40627877",
+    "checked_at": "2026-10-17T18:56:40.336Z",
+    "available": true
+  },
+  {
+    "id": "60636159",
+    "title": "DVALA 2'li yastık kılıfı, gri-yeşil",
+    "category": "Rahat bir akşam",
+    "price_kurus": 22900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/dvala-gri-yesil-50x60-cm-2-li-yastik-kilifi-60636159",
+    "checked_at": "2026-10-17T18:56:41.068Z",
+    "available": true
+  },
+  {
+    "id": "20627798",
+    "title": "DVALA 2'li yastık kılıfı, bej",
+    "category": "Rahat bir akşam",
+    "price_kurus": 22900,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/dvala-bej-50x60-cm-2-li-yastik-kilifi-20627798",
+    "checked_at": "2026-10-17T18:56:41.069Z",
+    "available": true
+  },
+  {
+    "id": "20539221",
+    "title": "FJADRAR iç minder, gri",
+    "category": "Rahat bir akşam",
+    "price_kurus": 50000,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/fjadrar-gri-40x58-cm-ic-minder-20539221",
+    "checked_at": "2026-10-17T18:56:41.767Z",
+    "available": true
+  },
+  {
+    "id": "80262187",
+    "title": "FJADRAR iç minder, kirli beyaz",
+    "category": "Rahat bir akşam",
+    "price_kurus": 50000,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/fjadrar-kirli-beyaz-50x50-cm-ic-minder-80262187",
+    "checked_at": "2026-10-17T18:56:41.773Z",
+    "available": true
+  },
+  {
+    "id": "80550710",
+    "title": "INNER iç minder, beyaz",
+    "category": "Rahat bir akşam",
+    "price_kurus": 25000,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/inner-beyaz-40x58-cm-ic-minder-80550710",
+    "checked_at": "2026-10-17T18:56:42.412Z",
+    "available": true
+  },
+  {
+    "id": "50550702",
+    "title": "INNER iç minder, beyaz",
+    "category": "Rahat bir akşam",
+    "price_kurus": 25000,
+    "source": "IKEA Türkiye",
+    "url": "https://www.ikea.com.tr/urun/inner-beyaz-50x50-cm-ic-minder-50550702",
+    "checked_at": "2026-10-17T18:56:42.417Z",
+    "available": true
+  },
+  {
+    "id": "book-490450",
+    "title": "Kürk Mantolu Madonna",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 12219,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/kurk-mantolu-madonna/490450.html",
+    "checked_at": "2026-10-17T18:56:43.721Z",
+    "available": true
+  },
+  {
+    "id": "book-569250",
+    "title": "Sırça Köşk",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 2490,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/sirca-kosk/569250.html",
+    "checked_at": "2026-10-17T18:56:43.821Z",
+    "available": true
+  },
+  {
+    "id": "book-569231",
+    "title": "İçimizdeki Şeytan",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 4150,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/icimizdeki-seytan/569231.html",
+    "checked_at": "2026-10-17T18:56:45.149Z",
+    "available": true
+  },
+  {
+    "id": "book-62333",
+    "title": "Kuyucaklı Yusuf",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 5844,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/kuyucakli-yusuf/62333.html",
+    "checked_at": "2026-10-17T18:56:45.153Z",
+    "available": true
+  },
+  {
+    "id": "book-579989",
+    "title": "Değirmen",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 2490,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/degirmen/579989.html",
+    "checked_at": "2026-10-17T18:56:46.377Z",
+    "available": true
+  },
+  {
+    "id": "book-572301",
+    "title": "Yeni Dünya",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 2490,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/yeni-dunya/572301.html",
+    "checked_at": "2026-10-17T18:56:46.382Z",
+    "available": true
+  },
+  {
+    "id": "book-425565",
+    "title": "Kumların Kadını",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 18125,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/kumlarin-kadini/425565.html",
+    "checked_at": "2026-10-17T18:56:47.502Z",
+    "available": true
+  },
+  {
+    "id": "book-544035",
+    "title": "Yeşilin Kızı Anne - Avonlea",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 16800,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/yesilin-kizi-anne-avonlea/544035.html",
+    "checked_at": "2026-10-17T18:56:47.628Z",
+    "available": true
+  },
+  {
+    "id": "book-600576",
+    "title": "İntibah",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 2480,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/intibah/600576.html",
+    "checked_at": "2026-10-17T18:56:48.785Z",
+    "available": true
+  },
+  {
+    "id": "book-665638",
+    "title": "İnsanlığımı Yitirirken",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 2490,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/insanligimi-yitirirken/665638.html",
+    "checked_at": "2026-10-17T18:56:48.863Z",
+    "available": true
+  },
+  {
+    "id": "book-590278",
+    "title": "Kurtuluş (İstiklal Harbi Romanı)",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 6092,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/kurtulus-istiklal-harbi-romani/590278.html",
+    "checked_at": "2026-10-17T18:56:49.960Z",
+    "available": true
+  },
+  {
+    "id": "book-579928",
+    "title": "Araba Sevdası",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 4569,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/araba-sevdasi/579928.html",
+    "checked_at": "2026-10-17T18:56:50.119Z",
+    "available": true
+  },
+  {
+    "id": "book-579926",
+    "title": "Aşk-ı Memnu",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 5395,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/aski-memnu/579926.html",
+    "checked_at": "2026-10-17T18:56:51.188Z",
+    "available": true
+  },
+  {
+    "id": "book-514969",
+    "title": "Acı Çekirdek",
+    "category": "Bir kitap, yeni bir dünya",
+    "price_kurus": 16905,
+    "source": "Kitapyurdu",
+    "url": "https://www.kitapyurdu.com/kitap/aci-cekirdek/514969.html",
+    "checked_at": "2026-10-17T18:56:51.190Z",
+    "available": true
+  }
+]

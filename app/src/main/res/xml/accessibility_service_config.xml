@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Window transitions must include non-target apps so leaving a feed flushes the buffer.
+     Code rejects every non-target scroll before reading its source. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeViewScrolled|typeWindowStateChanged|typeViewSelected"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds"
+    android:canRetrieveWindowContent="true"
+    android:canPerformGestures="false"
+    android:isAccessibilityTool="false"
+    android:notificationTimeout="0"
+    android:description="@string/service_description"
+    android:settingsActivity="com.bagimliligim.app.presentation.MainActivity" />

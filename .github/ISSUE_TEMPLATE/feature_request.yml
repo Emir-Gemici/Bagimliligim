@@ -1,0 +1,18 @@
+name: Özellik önerisi
+description: Bir ihtiyacı ve onu karşılayabilecek değişikliği anlat.
+title: "[Öneri] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: İhtiyaç
+      description: Hangi işi yaparken neye ihtiyaç duyuyorsun?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Önerilen davranış
+      description: Özellik nasıl çalışmalı? Varsa alternatifleri ekle.
+    validations:
+      required: true

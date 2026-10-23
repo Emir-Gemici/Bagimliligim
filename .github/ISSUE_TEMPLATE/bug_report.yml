@@ -1,0 +1,33 @@
+name: Hata bildirimi
+description: Tekrarlanabilen bir uygulama veya derleme sorununu bildir.
+title: "[Hata] "
+body:
+  - type: markdown
+    attributes:
+      value: "Lütfen kişisel kayıt, hesap bilgisi, token veya imza anahtarı paylaşma."
+  - type: textarea
+    id: description
+    attributes:
+      label: Sorun
+      description: Ne oldu, ne olmasını bekliyordun?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Tekrarlama adımları
+      placeholder: "1. Uygulamayı aç…"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Ortam
+      description: Cihaz modeli, Android sürümü, uygulama sürümü; derleme hatasında işletim sistemi ve JDK.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Ek bilgi
+      description: Kişisel bilgi içermeyen hata çıktıları veya ekran görüntüleri.

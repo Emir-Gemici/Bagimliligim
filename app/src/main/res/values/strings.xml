@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="tr">
+    <string name="app_name">Bağımlılığım</string>
+    <string name="service_name">Bağımlılığım · Kaydırma sayacı</string>
+    <string name="service_description">Instagram Reels, TikTok ve YouTube Shorts içindeki tam ekran dikey kaydırmaları tahmini olarak sayar, parmak mesafesini hesaplar ve bütçe uyarısı verir. Metin, mesaj veya video içeriği kaydedilmez. Ham olaylar cihazda işlenir. Çevrem bölümünden seçtiğiniz sayısal özetleri ayrıca paylaşabilirsiniz. Takibi istediğiniz zaman kapatabilirsiniz.</string>
+    <string name="widget_large_name">Bağımlılığım · Günlük bütçe (4×2)</string>
+    <string name="widget_small_name">Bağımlılığım · Günlük bütçe (2×2)</string>
+    <string name="widget_description">Günlük kaydırma bütçeniz, kalan hakkınız ve parmak mesafeniz.</string>
+    <string name="widget_title">GÜNLÜK BÜTÇEN</string>
+    <string name="widget_refresh">Yenile</string>
+    <string name="widget_loading">Hazırlanıyor…</string>
+    <string name="widget_swipes">%1$d / %2$d Reels</string>
+    <string name="widget_distance">%1$s kaydırıldı</string>
+    <string name="widget_remaining">%1$d kaydırma kaldı</string>
+    <string name="widget_over">Bütçe %1$d kaydırma aşıldı</string>
+    <string name="widget_platforms">Instagram %1$d\nTikTok %2$d · YouTube %3$d</string>
+    <string name="notification_channel">Günlük bütçe hatırlatmaları</string>
+    <string name="notification_channel_description">Bütçenin yüzde 80 ve yüzde 100 eşiklerinde nazik hatırlatmalar.</string>
+    <string name="notification_title">Bir nefes molası?</string>
+    <string name="notification_body">Günlük Reels bütçenin %1$d%%’ünü doldurdun! Başparmağın bugün %2$s yol gitti.</string>
+</resources>

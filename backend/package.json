@@ -1,0 +1,14 @@
+{
+  "name": "bagimliligim-services",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "catalog": "node scripts/refresh-comparisons.mjs",
+    "check-live": "node scripts/check-live.mjs",
+    "publish-prices": "node scripts/import-tobacco-prices.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.10"
+  }
+}

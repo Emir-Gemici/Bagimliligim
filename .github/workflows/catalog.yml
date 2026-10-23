@@ -1,0 +1,40 @@
+name: Verify public price catalog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 */6 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: public-price-catalog
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: vars.BAGIMLILIGIM_CATALOG_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify and publish in-stock product offers
+        working-directory: backend
+        env:
+          BAGIMLILIGIM_BACKEND_URL: ${{ vars.BAGIMLILIGIM_BACKEND_URL }}
+          BAGIMLILIGIM_SERVICE_ROLE_KEY: ${{ secrets.BAGIMLILIGIM_SERVICE_ROLE_KEY }}
+        run: npm run catalog -- --publish
+      - name: Publish a reviewed tobacco price feed when configured
+        if: vars.BAGIMLILIGIM_VERIFIED_PRICE_FEED != ''
+        working-directory: backend
+        env:
+          BAGIMLILIGIM_BACKEND_URL: ${{ vars.BAGIMLILIGIM_BACKEND_URL }}
+          BAGIMLILIGIM_SERVICE_ROLE_KEY: ${{ secrets.BAGIMLILIGIM_SERVICE_ROLE_KEY }}
+          BAGIMLILIGIM_VERIFIED_PRICE_FEED: ${{ vars.BAGIMLILIGIM_VERIFIED_PRICE_FEED }}
+        run: npm run publish-prices -- --publish
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verified-public-prices
+          path: backend/local-output/comparisons.json
+          retention-days: 7
